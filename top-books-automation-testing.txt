@@ -1,0 +1,23 @@
+Day 02: Top 3 Books on Automation Testing
+
+-> Today's Task: Begin reading an automation related book and share something we've learnt by day 30.
+
+-> Important Resources: 
+   i) Software Test Automation Paperback:
+        a) Encapsulates years of experience
+        b) This book has all the information we need to be a good software tester from someone new to more experienced professionals.
+        c) This book is a must for every serious test manager
+        d) Principles for good automation script
+        e) Detailed guide to designing automated (or not totally automated) tests
+        f) Which tests should be automated
+        g) Choosing an appropriate test tool
+    
+   ii) The Way of the Web Tester:
+        a) How to write really good automated tests for the web
+        b) If we're a team lead, it can help us reduce testing gap
+
+   iii) Experience of Test Automation:
+        a) Cover wide projects (QTP, BPT: chap 6, Junit, EggPlant, JMeter, Nagios, Selenium)
+        b) Test automation in agile development
+        c) Measuring benefits and return on investment
+        d) The right objectives for test automation: why "finding bugs" may not be a good objective

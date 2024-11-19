@@ -1,0 +1,48 @@
+Day 04: TOP Automation Tools For Software Testing
+
+-> Today's Task: Automation Testing Tools 
+
+-> Automation Tools:
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|    Product     |         Selenium         |       Katalon Studio      |           UFT One         |         TestComplete       |          SoapUI           |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|Available since |           2004           |            2015           |            1998           |            1999            |           2005            |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|  Applications  |          Web app         |       Web/API/Mobile      |        Web/Desktop/       |         Web/Desktop/       |          API/Web          |
+|   under test   |                          |        Desktop apps       |       Mobile/RPA apps     |         Mobile apps        |          services         |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|   Supported    |     Windows, Mac OS,     |      Windows, Linux,      |          Windows          |           Windows          |          Windows,         |
+|   platforms    |      Linux, Solaris      |            OS X           |                           |                            |        Linux, OS X        |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|   Scripting    |  Java, C#, Perl, Python, |       Java, Groovy        |         VBScript          |JavaScript,Python,VBScript, |          Groovy,          |
+|   languages    |  JavaScript, Ruby, PHP   |                           |                           |JScript,Delphi,C++,C#       |         JavaScript        |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|  Programming   | Advanced skills required | Not Required. Recommended | Not Required. Recommended | Not Required. Recommended  | Not Required. Recommended |
+|    skills      | for tools integration    | for advanced test scripts | for advanced test scripts | for advanced test scripts  | for advanced test scripts |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|  Ease of use   | Requires advanced skills |   Easy to set up and use  | Complex in installation.  | Easy to set up. Requires   |  Easy to set up and use   |
+|                | to install and use       |                           | Requires training to      | training to implement the  |                           |
+|                |                          |                           | implement the tool        | tool                       |                           |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+|    Ratings     |     4.4/501 ratings      |      4.4/651 ratings      |      4.4/103 ratings      |      4.4/103 ratings       |       Not Applicable      |
+|----------------|--------------------------|---------------------------|---------------------------|----------------------------|---------------------------|
+
+i) Telerik Test Studio: Test Studio is a comprehensive and one of the most intuitive automation testing tools avay. It offers robust functional UI testing, exploratory testing, load testing, performance testing, testing in Visual Studio, and mobile testing apart from manual testing capabilities.
+
+ii) Selenium: Selenium is an automated software testing tool for testing web applications. It automates browsers, enabling users to sail through various browser-specific testing purposes. What makes this even more important is that most major browser vendors are taking steps to make Selenium an integral part of their browsers.
+
+iii) Robotium: Robotium is a popular automation testing framework for Android. It supports native and hybrid applications and makes writing automated black-box test cases easy. It also integrates seamlessly with Gradle, Ant, and Maven which helps to run test cases as continuous integration.
+
+iv) TestComplete: TestComplete is a open test platform that helps us create reusable, robust and automated tests across desktop, web, mobile and multiple devices easily and effectively. Silverlight applications can also be tested using TestComplete. It allows testers to create automated tests for Microsoft Windows, Web, Android, and IOS apps.
+
+v) Watir: Watir which is pronounced as water is another tool (Ruby libraries) to automated web browsers. Ruby enables connection to databases, reads files, export XML., etc., and also structures our code as reusable libraries. And moreover, it is an open source library, which gives us the flexibility of automation. Watir lets us write tests  that are easy to maintain and flexible.
+
+vi) Visual Studio Test Professional: This is the most comprehensive testing solution for all Microsoft platforms, including desktops, phones, tablets, servers and also the cloud. With MSDN subscription we can also access all the other Microsoft products and services, which can further help us to design, develop, and test our applications on multiple platforms.
+
+vii) QTP (UFT): HP's QTP, which is launched as Unified Functional Testing, provides automated functional testing and automated regression testing. It supports scripting interfaces and offers GUI for easy use. It can be used for enterprise quality assurance. It uses VB scripts to specify test procedures and manipulate application's objects which are being tested.
+
+viii) SoapUI: This is an open source web service testing application for SOA (Service Orientated Architect) and REST (Representational State Transfers). It offers automated functional testing, functional load testing, and compliance testing. It also offers mocking and simulation features apart from web service inspection.
+
+ix) FitNesse: FitNesse is a wiki and a web server apart from an automated testing tool. It is designed to run acceptance testing than until testing. The wiki pages created in FitNesse are run as tests. The specifications can be tested against the application itself, resulting in a roundtrip between specifications and implementations.
+
+x) TestDrive: TestDrive helps in rapid automation, it effectively tests browsers and even legacy applications apart from GUI's like Ajax, Java, Flex and Silverlight.

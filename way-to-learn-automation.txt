@@ -1,0 +1,19 @@
+Day 03: How to Learn Automation Testing 
+
+-> Today's Task: What is the best way to learn automation testing?
+
+-> Way to Learn Automation Testing:
+       i) Understand the life of Automation Testing
+       ii) Read books about the automation testing
+       iii) Have a clear understanding what to do and what not to test?
+       iv) Select a right Automation Tool
+       v) Use pattern and generic code that is not effected by Selector or UI Changes.
+       vi) If possible use API Testing instead End to End UI Testing Cases
+       vii) Invest in ourselves buy online course
+       viii) Fork the automation projects and play with them and implement stuff from the repo
+       ix) Steps to start doing it:
+            a) Learn Programming
+            b) Learn CI/CD Tools
+            c) Control Version: Git
+            d) Learn Understand Manual Testing first and
+            e) API Testing is must: Postman, Rest Assured.

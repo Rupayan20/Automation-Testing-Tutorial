@@ -1,0 +1,42 @@
+Day 01: Life Cycle of Automation Testing
+
+-> Today's Task: Look up some definitions for "Automation", compare them against definitions for "Test Automation".
+
+-> What we will learn?
+Ans> i) What is Automation>
+     ans) Labor-saving technology is the technology.
+          A process or procedure is performed with no or minimal human assistance.
+          It can cover applications range from small thermostat to large scale productions.
+
+     ii) Test Automation:
+     ans) Automating the repetitive task.
+          It is critical for CI/CD.
+          Approach to Test Automation                |--> Headless Execution
+                                    |--> GUI Testing-| 
+                                    |                |--> Using Selenium and other tool   
+                                    |--> API Testing
+                                    |--> Continuous Testing
+          Mostly used in Regression testing.
+          The goal of automation testing is to reduce the number of test cases to be run manually.
+
+     iii) Why we do Automation Testing?
+     ans) Eliminate to manual efforts.
+          Ad hoc Test cases are required to run.
+          Rerun the critical or important cases continuously.
+          Long manual flows are tidies.
+
+     iv) Life Cycle of Automation Testing:
+     ans) Scope of Automation.
+          Selection of Automation Tool.
+          Test Plan, Design, Strategy.
+          Test Environment setup.
+          Test Scripts and Execuution.
+          Test Results and Reports.
+
+-> 6 Stage Automation Test Life Cycle Roadmap:
+   i) Automation Feasibility Analysis: This side is 100% editable. Adapt it to our needs and capture our audience's attention.
+   ii) Test Design: This side is 100% editable. Adapt it to our needs and capture our audience's attention.
+   iii) Environment Setup: This side is 100% editable. Adapt it to our needs and capture our audience's attention.
+   iv) Test Script Development: This side is 100% editable. Adapt it to our needs and capture our audience's attention.
+   v) Test Script Execution: This side is 100% editable. Adapt it to our needs and capture our audience's attention.
+   vi) Generate Test Result: This side is 100% editable. Adapt it to our needs and capture our audience's attention.
