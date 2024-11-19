@@ -59,11 +59,10 @@ Use this index to navigate through the topics covered daily:
 
 | Day  | Topic                                     | GitHub Link                                          |
 |------|-------------------------------------------|------------------------------------------------------|
-| Day 1| Life Cycle of Automation Testing          | [View Code](#https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/life-cycle-of-automation-testing.txt)                                       |
-| Day 2| Top 3 Books on Automation Testing         | [View Code](#https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/top-books-automation-testing.txt)                                       |
-| Day 3| How to Learn Automation Testing           | [View Code](#https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/way-to-learn-automation.txt)                                       |
+| Day 1| Life Cycle of Automation Testing          | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/life-cycle-of-automation-testing.txt)                                       |
+| Day 2| Top 3 Books on Automation Testing         | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/top-books-automation-testing.txt)                                       |
+| Day 3| How to Learn Automation Testing           | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/way-to-learn-automation.txt)                                       |
 | Day 4| TOP Automation Tools For Software Testing | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/automation-tool.txt)                                       |
-|------|-------------------------------------------|------------------------------------------------------|
 ---
 
 
