@@ -1,0 +1,33 @@
+Day 06: Must Have Skills For a Top Automation Tester
+
+-> Today's Task: Skills to Succeed with Automation in Testing
+
+-> Must Skills to have as Automation Tester:
+   i) Beginner:
+      a) HTML, CSS, JavaScript
+      b) Understand DOM and JQuery manipulation of DOM elements
+      c) Cookies, Authentication
+      d) Locator strategy: XPATH, CSS locators
+      e) HTTP Methods Basics: GET, POST, PUT, DELETE
+  
+   ii) Medium: 
+      a) Know at leasr one Scripting Language (Python/JavaScript/Ruby)
+      b) CI/CD Tools (Jenkins/GitHub/Cron/Selenium Grid)
+      c) Testing framework (TestNG/Cucumber)
+      d) Cloud CBT platform (BrowserStack/SauceLabs)
+
+   iii) Advance:
+      a) API Testing
+      b) Mobile Automation (Appium)
+      c) Security
+      d) Performance Testing Tools (JMeter/LoadRunner)
+
+   iv) Manual Testing:
+      a) Type of Manual Testing 
+          - White Box Testing 
+          - Black Box Testing (Equivalence Partitioning, Boundary Value Analysis, Decision Table Testing, State Transition Testing, Error Guessing, Graph-Based Testing, Methods, Comparison Testing)
+          - Unit Testing
+          - System Testing
+          - Integration Testing
+          - Acceptance Testing
+      

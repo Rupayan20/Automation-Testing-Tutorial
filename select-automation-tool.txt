@@ -1,0 +1,31 @@
+Day 07: How to Select Right Automation Testing Tool
+
+-> How to select best automation testing tool?
+ans> Before we start, we need to consider these factors. 
+     There are so many factors to consider, before we choose one Tool.
+     Tool type and Requirements: Open-Source Tools and Commercial Tools.
+     Our own Application Type, Stability, Complexity, How our Testdata handled, Execution.
+     We have to evaluate our team Skill Level.
+
+   3 step by step guide:
+     i) Step 1: Understand our project requirements thoroughly.
+     ii) Step 2: Consider our existing test automation tool as a benchmark (if not step 3)
+     ii) Step 3: Use Pubh Matrix:
+|----------------------------|-------------------------------|------------------|----------------|----------------|
+| Criteria                   | Optional Importance Weighting | Current Solution | Alternative #1 | Alternative #2 |
+|----------------------------|-------------------------------|------------------|----------------|----------------|
+| Effectiveness              | 5                             | 0                | 1              | 1              |
+| Availability of Resources  | 3                             | 0                | 0              | 1              |
+| Support from Business      | 2                             | 0                | 0              | 1              |
+| Long Term Benefit          | 2                             | 0                | 1              | 0              |
+| Time to Implement          | 4                             | 0                | -1             | 0              |
+| Ease to Implement          | 1                             | 0                | 0              | 0              |
+| Cost to Implement          | 5                             | 0                | -1             | -1             |
+|----------------------------|-------------------------------|------------------|----------------|----------------|
+|                            | Totals                        | 0                | -2             | 5              |
+|----------------------------|-------------------------------|------------------|----------------|----------------|
+
+-> Question we need to Answer before choosing right tool:
+   i) What is our team skill level or expertise?
+   ii) Which tech stack we application have and which tool is closed and fulfilled the maximum Criteria
+   iii) Keep in mind the Test Automation ROI (Roughly)

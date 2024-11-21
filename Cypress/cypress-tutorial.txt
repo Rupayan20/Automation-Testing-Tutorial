@@ -1,0 +1,78 @@
+Day 05: Cypress Tutorial For Beginners (Running Our First TestCase)
+
+-> Today's Task: Explore a new UI Testing Tool - Cypress
+
+-> Cypress Tutorial for Beginners:
+   i) What is Cypress?
+   ans> It is probably the Best End to End UI Testing Tool.
+        It is Front end testing tool constructed for modern web applications.
+        Cypress engine directly operates inside the browser.
+        Cypress can modify browser behaviors, listen to the Network request and manipulate DOM at runtime.
+        It solves the biggest issue by Selenium - Sunchronization issues, the inconsistency of tests due to elements not visible or available.
+        Build as a Node module, uses Javascript (we can use the custom Cypress commands which are easy to learn).
+        Inherits many of JQuery methods: a) DOM tree traversal, b) Manipulation.
+
+   ii) Why use Cypress and its features:
+       a) Cypress is Flake Resistance: Since Test-cases are running in Browser, they have smart wait for commands and assertions. - Automatic Waiting.
+       b) Cypress is fast and more reliable as it directly communicates with Browser- Consistent Results.
+       c) It can emulate XHR or network requests (mocking)- Network Traffic Control.
+       d) Recording videos for debugging and Dashboard.
+       e) Now supports multiple browsers.
+       f) Easy to debug test cases, DOM Snapshots, move back and forward in Test cases- Time Travel. 
+     
+                              [Before Cypress]                                                                                                                                [With Cypress] 
+                                                  Choose an assertion library ------------------------------
+                                                       [Chai, Expect.js]                                   ↓
+     Choose a framework -------------------------------------------------------------------------------    ↓
+                                                                                                       ↓   ↓                    
+[Mocha, Jasmine, QUnit, Karma]                                                              |--------------------|                                                                Cypress
+                                                                                            |  End-to-end tests  | <-------------------------------------- [All-in-one testing framework, assertion library,
+                                  Install                                                   |--------------------|                                         with mocking and stubbing, all without Selenium]
+                                 [Selenium]                                                            ↑   ↑
+      Choose Selenium wrapper -------------------------------------------------------------------------    ↑
+[Protector, Nightwatch, Webdriver]           Add additional libraries --------------------------------------
+                                               [Sinon, TestDouble]
+       
+       h) Screenshots and Videos
+       i) Dashboard service, which displays the results of all test runs.
+
+-> Disadvantage of Cypress:
+   i) Very limited community support
+   ii) Only supports JavaScript as of now
+   iii) Multiple tabs and popups not supported
+   iv) No shadow DOM support (DOM within a DOM)
+   v) It does not support mobile browsers even as of now, yet we can emulate it
+
+-> Architecture of Cypres: Most testing tools (like Selenium) operate by running outside of the browser and executing remote commands across the network.
+    
+                                            Cypress's Architecture
+
+                           Node.js Process                                  Browser  
+                        +-------------------+                      +----------------------+
+                        |                   |                      |                      |
+                        |                   |                      |                      |
+                        |                   |                      | iFrame     localhost |
+                        |   +-----------+   |                      |   +--------------+   |
+                        |   |  Cypress  |   |      via WebSocket   |   |    Cypress   |   |
+                        |   +-----------+   |<------------------------>|    (Tests)   |   |
+                        |         |         |                      | | +--------------+   |
+                        |         v         |     HTTP Request     | |                    |
++-----------+ --------->|   +-----------+ <------------------------| | iFrame   localhost |
+|    Web    |           |   |   Proxy   |   |    HTTP Response     | | +--------------+   |
++-----------+<--------- |   +-----------+ ------------------------>| | |  Application |   |
+                        |                   |                      | | +--------------+   |
+                        |                   |                      | |                    |
+                        |                   |                      | v                    |
+                        +-------------------+                      | [DOM] [Wondow] [...] |                   
+                                 |                                 |  [LocalStorage]      |
+                                 |                                 |  [Service Worker]    |
+                                 v                                 |                      |
+                        +------------------+                       +----------------------+
+                        |       OS         |
+                        +------------------+
+
+-> Running Our First Test-Case:
+   i) Install Node - nodejs.org
+   ii) npm install --save-dev cypress@4.7.0 -g
+   iii) npx cypress open
+   iv) cypress run --spec cypress/integration/examples/hello.spec.js --browser=chrome
