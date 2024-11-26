@@ -66,6 +66,9 @@ Use this index to navigate through the topics covered daily:
 | Day 5| Cypress Tutorial For Beginners (Running Our First TestCase) | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/tree/main/Cypress)                                |
 | Day 6| Must Have Skills For a Top Automation Tester                | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/skills-for-automation.txt)              |
 | Day 7| How to Select Right Automation Testing Tool                 | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/select-automation-tool.txt)             |
+| Day 8| Where Should I Start For Automation Testing?                | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/platform-for-automation.txt)            |
+| Day 9| How To Parse XML Response in Postman                        | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/xml-response.txt)                       |
+| Day 10| Locators in Selenium WebDriver                             | [View Code](https://github.com/Rupayan20/Automation-Testing-Tutorial/blob/main/locator-selenium.txt)                   |
 ---
 
 
