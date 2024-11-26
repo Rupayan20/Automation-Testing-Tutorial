@@ -1,0 +1,17 @@
+Day 09: How To Parse XML Response in Postman
+
+-> Today's Task: How to Parse XML Response in Postman?
+ 
+i) Go to Postman and paste this url "https://www.w3schools.com/xml/tempconvert.asmx"
+ii) Next select "POST" method 
+iii) In the "Header", select "Content-Type" as "text/xml"
+iv) In the "Body" tab, select "raw" and then select "XML"
+v) Paste the following code in the "raw" tab:
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">  
+  <soap12:Body>  
+    <FahrenheitToCelsius xmlns="https://www.w3schools.com/xml/">  
+      <Fahrenheit>100.4</Fahrenheit>  
+    </FahrenheitToCelsius>  
+  </soap12:Body>  
+</soap12:Envelope>
+vi) Click on the "Send" button to send the request and get the response.

@@ -1,0 +1,31 @@
+Day 08: Where Should I Start For Automation Testing? 
+
+-> Being a beginner, where should I Start For Automation Testing?
+ans> 
+   i) Programming: Python/JavaScript/Java/Ruby/C# 
+
+   ii) Familiarity with Automation Tools: 
+        a) Web: Frontend UI Testing (Cypress), Selenium, UFT, TestComplete, Katalon studio
+        b) Mobile: Espresso, SCUITest, Appium
+        c) CI/CD Tools: Github, Jenkins
+        d) IDE: Intelliji, VS Code, Pycharm
+        e) Performance Testing Tools: JMeter, Gatling, LoadRunner
+    
+   iii) Technical Skills: 
+        a) Test Management Tool: Test Management (Jira, TestLink, BugZilla)
+        b) Knowledge of Linux commands
+    
+   iv) Knowledge of Manual Testing:
+       a) Creating test cases
+       b) Understanding requirement documents
+       c) Executing test case
+       d) BlackBox Testing
+       e) WhiteBox Testing
+       f) System Testing
+       g) Integration Testing
+       h) Unit Testing
+       i) Reporting (Email reports)
+       j) Re-testing bugs
+       k) Review meetings
+       l) GreyBox Testing
+       m) Acceptance Testing

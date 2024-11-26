@@ -1,0 +1,68 @@
+Day 10: Locators in Selenium WebDriver
+
+-> Today's Task: Locators in Selenium: A Detailed Guide
+
+-> How to Work with Locators in Selenium?
+ans> i) What are Locators in Selenium?
+     - A locator enables testers to select aHTML DOM element to act on.
+     - Using Loctors Selenium Finds elements in HTML Page and return that the web element or elements.
+     - WebDriver represents the browser.
+     - WebElement represents a particular DOM node.
+    
+     ii) Different Locators in Selenium:
+     - By CSS ID
+     - By CSS Class name
+     - By Link text
+     - By partial link text
+     - By xPath or DOM structure
+     - By Name attribute
+     - By HTML Tag name
+
+     iii) What is CSS Selector?
+     - CSS Selector combines an element selector and a selector value that can identify the particular elements on a web page (ID, Class, Rest of it we write as it is).
+     - Selecting Nth-of-type in Selenium.
+     - Finding Elements using cssSelector and nth child.
+       driver.findElement(By.cssSelector("ul>li:nth-child(1)")); >>home
+       driver.findElement(By.cssSelector("ul>li:nth-child(2)")); >>posts
+       driver.findElement(By.cssSelector("ul>li:nth-child(3)")); >>events
+
+     iv) Return multiple Elements:
+     - find element
+     - find elements
+
+     v) Syntax: WebElement elementName = driver.findElement(By.locatorStrategy("LocatorValue"));
+
+-> The code automates a login and appointment process on a web application using Selenium WebDriver in Java. 
+   It opens a webpage, clicks an appointment button, enters a username and password, and clicks the login button. 
+   The makeAppointment and userLogin methods interact with specific web elements by finding them using locators like name, cssSelector, and xpath. 
+   The code needs some corrections like defining the makeAppointmentId element and fixing syntax errors in sendKeys.
+
+//code
+package com.company;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Locators {
+  public static void main(String[] args) throws InterruptedException {
+    WebDriver driver = new ChromeDriver();
+    makeAppointment(driver);
+    userLogin(driver);
+  }
+}
+
+static void makeAppointment(WebDriver driver){
+  driver.get("https://katalon-demo-cura.herokuapp.com/");
+  makeAppointmentId.click();
+}
+
+static void userLogin(WebDriver driver){
+  WebElement useName = driver.findElement(By.name("username"));
+  useName.sendKeys(...keysToSend: "John Doe");
+  
+  WebElement password = driver.findElement(By.cssSelector("#txt-password"));
+  password.sendKeys(...keysToSend: "ThisIsNotAPassword");
+  
+  WebElement submitButton = driver.findElement(By.xpath("//button[@id='btn-login']"));
+  submitButton.click();
+}
