@@ -82,7 +82,7 @@ Feel free to contribute to this repository by submitting issues or pull requests
 ## 🌟 **Stay Connected**
 
 Follow the journey on:
-- [YouTube Channel](#https://www.youtube.com/@Im_rupuu)
-- [LinkedIn Profile](#https://www.linkedin.com/in/rupayan-dutta-064908195/)
+-  [YouTube Channel](#https://www.youtube.com/@Im_rupuu) 
+- [LinkedIn Profile](#https://www.linkedin.com/in/rupayan-dutta-064908195/) 
 
 **Happy Learning and Automating! 🚀**
